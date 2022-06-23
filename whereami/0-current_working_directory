@@ -1,2 +1,3 @@
 #!/bin/sh
-pwd
+path=’readlink -f “${BASH_SOURCE:-$0}”’
+echo $path
