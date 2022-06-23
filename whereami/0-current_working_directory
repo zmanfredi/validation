@@ -1,1 +1,2 @@
-realpath "$0"
+#!/bin/sh
+pwd
